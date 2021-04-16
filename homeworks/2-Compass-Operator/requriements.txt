@@ -1,0 +1,3 @@
+numpy==1.18.5
+opencv-python==4.5.1.48
+plotly==4.11.0
