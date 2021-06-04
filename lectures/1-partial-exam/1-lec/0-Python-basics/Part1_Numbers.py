@@ -8,7 +8,7 @@
 #
 #     1.) Types of Numbers in Python
 #     2.) Basic Arithmetic
-#     3.) Differences between Python 2 vs 3 in division
+#     3-Image-Segmentation.) Differences between Python 2 vs 3-Image-Segmentation in division
 #     4.) Object Assignment in Python
 
 # Types of numbers
@@ -100,8 +100,8 @@ a
 #
 #     1. Names can not start with a number.
 #     2. There can be no spaces in the name, use _ instead.
-#     3. Can't use any of these symbols :'",<>/?|\()!@#$%^&*~-+
-#     3. It's considered best practice (PEP8) that the names are lowercase.
+#     3-Image-Segmentation. Can't use any of these symbols :'",<>/?|\()!@#$%^&*~-+
+#     3-Image-Segmentation. It's considered best practice (PEP8) that the names are lowercase.
 #
 # Using variable names can be a very useful way to keep track of different
 # variables in Python. For example:

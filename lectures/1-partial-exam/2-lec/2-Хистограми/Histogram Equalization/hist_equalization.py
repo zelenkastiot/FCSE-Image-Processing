@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 # Load test image
 #img = cv2.cvtColor(cv2.imread('bay.jpg'),cv2.COLOR_BGR2GRAY)
 #img = cv2.cvtColor(cv2.imread('brain.jpg'),cv2.COLOR_BGR2GRAY)
-#img = cv2.cvtColor(cv2.imread('Example.png'), cv2.COLOR_BGR2GRAY)
+#img = cv2.cvtColor(cv2.imread('Example-2.png'), cv2.COLOR_BGR2GRAY)
 img = cv2.cvtColor(cv2.imread('moon.jpg'), cv2.COLOR_BGR2GRAY)
 
 # Perform histogram equalization

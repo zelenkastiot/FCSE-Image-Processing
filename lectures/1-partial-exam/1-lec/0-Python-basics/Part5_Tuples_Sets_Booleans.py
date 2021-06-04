@@ -10,7 +10,7 @@
 #
 #     1.) Constructing Tuples
 #     2.) Basic Tuple Methods
-#     3.) Immutability
+#     3-Image-Segmentation.) Immutability
 #     4.) When to Use Tuples.
 #
 # You'll have an intuition of how to use tuples based on what you've learned

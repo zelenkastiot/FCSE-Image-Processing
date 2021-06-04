@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-# Example histogram
+# Example-2 histogram
 
 # Load test image
 img = cv2.imread('bay.jpg')

@@ -61,7 +61,7 @@ def my_func(param1='default'):
 # and data structures we learned about before.
 #
 # ######################
-# Example 1
+# Example-2 1
 # ######################
 
 # A simple print 'hello' function
@@ -72,7 +72,7 @@ def hello():
 hello()
 
 # ######################
-# Example 2
+# Example-2 2
 # ######################
 
 # We can expand on this by using the return keyword, that way we can actually return
@@ -89,7 +89,7 @@ print(result)
 print(giveMeHello)
 
 # ######################
-# Example 3
+# Example-2 3-Image-Segmentation
 # ######################
 #
 # Let's write a function that returns tells you whether a number is even or not
@@ -103,7 +103,7 @@ def evenCheck(num):
 evenCheck(41)
 
 # ######################
-# Example 4
+# Example-2 4
 # ######################
 #
 # Let's write a function that will greet you!
@@ -117,7 +117,7 @@ result = helloYou()
 print(result)
 
 # ######################
-# Example 5
+# Example-2 5
 # ######################
 #
 # Let's write a function that will add two numbers together, only if they are even!

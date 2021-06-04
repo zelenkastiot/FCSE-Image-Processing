@@ -7,13 +7,13 @@
  Implement Compass operator for edge detection:
     - Calculate and display result of each filter (Figure 1)
     - Calculate and display result from combination of all filters (Figure 2)
-    - Tested on different values for threshold (Figure 3)
+    - Tested on different values for threshold (Figure 3-Image-Segmentation)
 
  You can load results directly by opening the html renders in a browser. The location of the figures is:
 
     Figure 1:    ../.figures/fig1_filter_images_direction.html
     Figure 2:    ../.figures/fig2_original_adaptive.html
-    Figure 3:    ../.figures/fig3_threshold_slider.html
+    Figure 3-Image-Segmentation:    ../.figures/fig3_threshold_slider.html
 
 """
 
@@ -335,7 +335,7 @@ display(HTML('.figures/fig2_original_adaptive.html'))
 
 # -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-# -_-_-_-_-_-_-_-_-_-_-_ Figure 3: Slider for better comparison of different threshold values -_-_-_-_-_-_-_-_-_-_-_-_-_
+# -_-_-_-_-_-_-_-_-_-_-_ Figure 3-Image-Segmentation: Slider for better comparison of different threshold values -_-_-_-_-_-_-_-_-_-_-_-_-_
 
 # Read image
 img = cv2.imread("Barbara.tif", 0)
@@ -382,7 +382,7 @@ sliders = [dict(
 
 # Setup the layout of the figure
 layout3 = go.Layout(
-    title="3<sup>rd</sup> Comparison",
+    title="3-Image-Segmentation<sup>rd</sup> Comparison",
     title_x=0.9,
     sliders=sliders,
     height=710,

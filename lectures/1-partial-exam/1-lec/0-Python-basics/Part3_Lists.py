@@ -8,7 +8,7 @@
 #
 #     1.) Creating lists
 #     2.) Indexing and Slicing Lists
-#     3.) Basic List Methods
+#     3-Image-Segmentation.) Basic List Methods
 #     4.) Nesting Lists
 #     5.) Introduction to List Comprehensions
 #
@@ -45,7 +45,7 @@ my_list[0]
 # Grab index 1 and everything past it
 my_list[1:]
 
-# Grab everything UP TO index 3
+# Grab everything UP TO index 3-Image-Segmentation
 my_list[:3]
 
 # We can also use + to concatenate lists, just like we did for strings.

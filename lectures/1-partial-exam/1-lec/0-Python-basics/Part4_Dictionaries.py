@@ -10,7 +10,7 @@
 #
 #     1.) Constructing a Dictionary
 #     2.) Accessing objects from a dictionary
-#     3.) Nesting Dictionaries
+#     3-Image-Segmentation.) Nesting Dictionaries
 #     4.) Basic Dictionary Methods
 #
 # So what are mappings? Mappings are a collection of objects that are stored by

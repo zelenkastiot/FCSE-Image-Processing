@@ -182,7 +182,7 @@ range(0,10,2)
 
 # List Comprehension
 # This technique allows you to quickly create lists with a single line of code.
-# You can think of this as deconstructing a for loop with an append(). For Example:
+# You can think of this as deconstructing a for loop with an append(). For Example-2:
 
 # Starting with:
 x = [1,2,3,4]

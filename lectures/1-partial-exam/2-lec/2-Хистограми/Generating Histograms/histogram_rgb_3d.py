@@ -51,7 +51,7 @@ for (chan, color) in zip(chans, colors):
 
 # here we are simply showing the dimensionality of the
 # flattened color histogram 256 bins for each channel
-# x 3 channels = 768 total values -- in practice, we would
+# x 3-Image-Segmentation channels = 768 total values -- in practice, we would
 # normally not use 256 bins for each channel, a choice
 # between 32-96 bins are normally used, but this tends
 # to be application dependent
@@ -88,7 +88,7 @@ plt.colorbar(p)
 print("2D histogram shape: {}, with {} values".format(hist.shape, hist.flatten().shape[0]))
 
 # our 2D histogram could only take into account 2 out
-# of the 3 channels in the image so now let's build a
+# of the 3-Image-Segmentation channels in the image so now let's build a
 # 3D color histogram (utilizing all channels) with 8 bins
 # in each direction -- we can't plot the 3D histogram, but
 # the theory is exactly like that of a 2D histogram, so

@@ -16,7 +16,7 @@
 #
 #     1.) Creating Strings
 #     2.) Printing Strings
-#     3.) String Indexing and Slicing
+#     3-Image-Segmentation.) String Indexing and Slicing
 #     4.) String Properties
 #     5.) String Methods
 #     6.) Print Formatting
@@ -121,7 +121,7 @@ s[:3]
 
 
 # Note the above slicing. Here we're telling Python to grab everything from
-# 0 up to 3. It doesn't include the 3rd index. You'll notice this a lot in
+# 0 up to 3-Image-Segmentation. It doesn't include the 3rd index. You'll notice this a lot in
 # Python, where statements and are usually in the context of "up to, but not including".
 
 #Everything
@@ -238,7 +238,7 @@ print('One: {p}, Two: {p}, Three: {p}'.format(p='Hi!'))
 
 
 # Several Objects:
-print('Object 1: {a}, Object 2: {b}, Object 3: {c}'.format(a=1,b='two',c=12.3))
+print('Object 1: {a}, Object 2: {b}, Object 3-Image-Segmentation: {c}'.format(a=1,b='two',c=12.3))
 
 
 # That is the basics of string formatting!

@@ -27,7 +27,7 @@ def contrast_stretching(image, main_list: list):
     :param main_list:
         main_list[0] - list of input sensitivity level numbers (r1, r2, r3..)
         main_list[1] - list of output intensity level numbers (s1, s2, s3..)
-    :return: array, image stretched on all channels (1 if Grayscale, 3 if RGB)
+    :return: array, image stretched on all channels (1 if Grayscale, 3-Image-Segmentation if RGB)
     """
     r = main_list[0]
     s = main_list[1]
